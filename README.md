@@ -21,7 +21,10 @@ An automated software for analyzing transmission electron microscope images of c
 (Guide contributors on how to report issues, submit pull requests, or help improve the project.)
 
 ## License
-(Include licensing information, if applicable.)
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for the full license text.
+
+Copyright (c) 2023 Mark-Hou
 
 
  # FibrilVision
