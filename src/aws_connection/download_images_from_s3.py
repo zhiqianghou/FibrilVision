@@ -36,6 +36,9 @@ def download_images(bucket, output_dir):
         print("Unable to access S3. Please check your AWS credentials.")
         return
 
-# Download the images from the specified S3 bucket
-download_images(bucket_name, output_directory)
+def main():
+    # Download the images from the specified S3 bucket
+    download_images(bucket_name, output_directory)
 
+if __name__ == '__main__':
+    main()
