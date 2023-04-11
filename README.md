@@ -11,6 +11,11 @@ An automated software for analyzing transmission electron microscope images of c
 - NLP to obtain lot number from file names
 - Interactive dashboard for data visualization with daily or weekly updates
 
+## Data
+
+The dataset used in this project is obtained from the EMPIAR with full name of Eelectron Microscopy Public Image Archive.[EMPIAR-11418](https://www.ebi.ac.uk/empiar/EMPIAR-11418/). 
+The original 5.8GB cell images are in .tif format and each with size of 24MB, here to save my hard drive and with aim to show the computational pipeline, I personally only manually downloaded 7 images and converted into .jpeg format. The image names are reformated with time and lot number for future Dashboard visualizaiton purpose.
+
 ## Installation
 (Provide instructions on setting up the project environment, including any necessary dependencies or libraries.)
 
