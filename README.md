@@ -16,6 +16,13 @@ An automated software for analyzing transmission electron microscope images of c
 The dataset used in this project is obtained from the EMPIAR with full name of Eelectron Microscopy Public Image Archive.[EMPIAR-11418](https://www.ebi.ac.uk/empiar/EMPIAR-11418/). 
 The original 5.8GB cell images are in .tif format and each with size of 24MB, here to save my hard drive and with aim to show the computational pipeline, I personally only manually downloaded 7 images and converted into .jpeg format. The image names are reformated with time and lot number for future Dashboard visualizaiton purpose.
 
+
+## AWS Connection and Image Downloading
+
+I have a Python script to connect to an AWS S3 bucket and download images. The script is located in the `src/aws_connection` directory with name download_images_from_s3.py
+
+
+
 ## Installation
 (Provide instructions on setting up the project environment, including any necessary dependencies or libraries.)
 
