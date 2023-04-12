@@ -21,6 +21,14 @@ The original 5.8GB cell images are in .tif format and each with size of 24MB, he
 
 I have a Python script to connect to an AWS S3 bucket and download images. The script is located in the `src/aws_connection` directory with name download_images_from_s3.py
 
+To use the script, you'll need to install the `boto3` library:
+
+```bash
+pip install boto3
+
+Make sure to update the aws_access_key_id, aws_secret_access_key, and bucket_name variables in the download_images_from_s3.py script with your actual AWS credentials and the name of the S3 bucket containing the images.
+
+To run the script, we have provided a convenient Python script called download_images.py at the root level
 
 
 ## Installation
